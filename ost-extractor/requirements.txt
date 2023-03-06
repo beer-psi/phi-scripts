@@ -1,0 +1,5 @@
+UnityPy
+ffmpeg-python
+aioshutil
+mutagen
+pathvalidate

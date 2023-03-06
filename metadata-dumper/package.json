@@ -1,0 +1,23 @@
+{
+  "name": "phi-metadata-dumper",
+  "version": "0.1.0",
+  "description": "Dumps song metadata and chart constants for a certain rhythm game",
+  "private": true,
+  "main": "agent/index.ts",
+  "scripts": {
+    "build": "frida-compile agent/index.ts -o _agent.js -c",
+    "watch": "frida-compile agent/index.ts -o _agent.js -w",
+    "run": "frida -U -f com.PigeonGames.Phigros -l _agent.js"
+  },
+  "devDependencies": {
+    "@types/frida-gum": "~18.1.0",
+    "@types/node": "~18.0.6",
+    "frida-compile": "10.2.4"
+  },
+  "dependencies": {
+    "frida-il2cpp-bridge": "~0.7.13"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "0BSD"
+}
