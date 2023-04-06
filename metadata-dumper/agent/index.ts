@@ -16,11 +16,8 @@ function netFloatArrayToFloatArray(arr: Il2Cpp.Array<Il2Cpp.Object>): number[] {
     return ret;
 }
 
-Il2Cpp.perform(() => {
-    Reflect.defineProperty(Il2Cpp, "unityVersion", { value: "2019.4.31f1c1" });
-
-    const img = Il2Cpp.Domain.assembly("Assembly-CSharp").image;
-    console.log("got img");
+function dumpSongBase(img: Il2Cpp.Image) {
+    const songs: Record<string, any>[] = [];
 
     const SongBase = img.class("SongBase");
     console.log("obtained class SongBase");
@@ -31,14 +28,13 @@ Il2Cpp.perform(() => {
     }
     console.log("obtained instance");
 
-    let songs: Record<string, any>[] = []
     const songList = instance.method("get_AllSongs").invoke() as Il2Cpp.Object;
     const count = songList.method("get_Count").invoke() as number;
     console.log(`count: ${count}`);
     for (let i = 0; i < count; i++) {
         const song = songList.method("get_Item").invoke(i) as Il2Cpp.Object;
         songs[i] = {};    
-        ["composer", "illustrator", "songsId", "songsKey", "songsName", "songsTitle"].forEach(item => {
+        ["composer", "illustrator", "songsId", "songsKey", "songsName"].forEach(item => {
             songs[i][item] = (song.field(item).value as Il2Cpp.String).content;
         });
 
@@ -64,5 +60,38 @@ Il2Cpp.perform(() => {
     file.flush()
     file.close()
     console.log("Written to /storage/emulated/0/Documents/songs.json")
+}
 
+// TODO: work around private somehow
+function dumpTips(img: Il2Cpp.Image) {
+    const tips: Record<string, (string | null)[]> = {};
+
+    const TipsProvider = img.class("TipsProvider");
+    console.log("obtained class TipsProvider");
+
+    let instance = Il2Cpp.GC.choose(TipsProvider)[0];
+    while (instance === undefined) {
+        instance = Il2Cpp.GC.choose(TipsProvider)[0];
+    }
+    console.log("obtained instance");
+
+    const tipsDict = instance.field("tipsDict").value as Il2Cpp.Object;
+    const keys = tipsDict.method("get_Keys").invoke() as Il2Cpp.Object; 
+    const keysEnumerator = (keys.method("GetEnumerator").invoke() as Il2Cpp.ValueType).box();
+    while (keysEnumerator.method("MoveNext").invoke() as boolean) {
+        const key = keysEnumerator.method("get_Current").invoke() as Il2Cpp.Object;
+        const value = tipsDict.method("get_Item").invoke(key) as Il2Cpp.Array<Il2Cpp.String>;
+        tips[key.toString()] = netStringArrayToStringArray(value);
+    }
+
+}
+
+Il2Cpp.perform(() => {
+    Reflect.defineProperty(Il2Cpp, "unityVersion", { value: "2019.4.31f1c1" });
+
+    const img = Il2Cpp.Domain.assembly("Assembly-CSharp").image;
+    console.log("got img");
+
+    dumpSongBase(img);
+    // dumpTips(img);
 })

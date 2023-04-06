@@ -5,13 +5,14 @@
   "private": true,
   "main": "agent/index.ts",
   "scripts": {
-    "build": "frida-compile agent/index.ts -o _agent.js -c",
-    "watch": "frida-compile agent/index.ts -o _agent.js -w",
+    "build": "esbuild --bundle --outfile=_agent.js agent/index.ts",
+    "watch": "esbuild --bundle --outfile=_agent.js --watch agent/index.ts",
     "run": "frida -U -f com.PigeonGames.Phigros -l _agent.js"
   },
   "devDependencies": {
     "@types/frida-gum": "~18.1.0",
     "@types/node": "~18.0.6",
+    "esbuild": "~0.17.11",
     "frida-compile": "10.2.4"
   },
   "dependencies": {
