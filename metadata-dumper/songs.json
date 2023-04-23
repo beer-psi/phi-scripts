@@ -978,6 +978,156 @@
         ]
     },
     {
+        "composer": "LandRoot",
+        "illustrator": "笔记RE",
+        "songsId": "CraveWave.LandRoot.0",
+        "songsKey": "Crave Wave",
+        "songsName": "Crave Wave",
+        "charter": [
+            "Likey",
+            "Likey",
+            "Likey feat. 198",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            3.5,
+            8.4,
+            13.6,
+            0
+        ]
+    },
+    {
+        "composer": "Attoclef",
+        "illustrator": "翠冷兮",
+        "songsId": "TheChariotREVIIVAL.Attoclef.0",
+        "songsKey": "The Chariot ~REVIIVAL~",
+        "songsName": "The Chariot ~REVIIVAL~",
+        "charter": [
+            "M3d1uM",
+            "Alloces",
+            "Ctymax drives in BlindForest",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            5,
+            10.2,
+            14.4,
+            0
+        ]
+    },
+    {
+        "composer": "米虾Fomiki & 初云CLoudie",
+        "illustrator": "子狼",
+        "songsId": "Luminescence.米虾Fomiki初云CLoudie.0",
+        "songsKey": "Luminescence",
+        "songsName": "Luminescence",
+        "charter": [
+            "XMT小咩兔",
+            "XMT小咩兔",
+            "Pcat & 百九十八",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            5.5,
+            11.2,
+            14.8,
+            0
+        ]
+    },
+    {
+        "composer": "nm-y & Kry.exe",
+        "illustrator": "NerSAN",
+        "songsId": "Retribution.nmyKryexe.0",
+        "songsKey": "Retribution",
+        "songsName": "Retribution",
+        "charter": [
+            "NerSAN",
+            "NerSAN",
+            "Ner as \"SPΔDE\"",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            6,
+            11.6,
+            15.8,
+            0
+        ]
+    },
+    {
+        "composer": "Normal1zer vs. Broken Nerdz",
+        "illustrator": "rN",
+        "songsId": "DESTRUCTION321.Normal1zervsBrokenNerdz.0",
+        "songsKey": "DESTRUCTION 3,2,1",
+        "songsName": "DESTRUCTION 3,2,1",
+        "charter": [
+            "{Demolition,Devastation,Destruction}",
+            "{Devastation,Destruction}",
+            "{Destruction}",
+            "∅"
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            7,
+            12.9,
+            15.9,
+            16.6
+        ]
+    },
+    {
+        "composer": "Sakuzyo",
+        "illustrator": "knife美工刀",
+        "songsId": "DistortedFate.Sakuzyo.0",
+        "songsKey": "Distorted Fate",
+        "songsName": "Distorted Fate",
+        "charter": [
+            "De Fiance",
+            "Doubt Ful",
+            "Divination Fortune",
+            "unDefined Future"
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            7.5,
+            12.9,
+            15.9,
+            16.7
+        ]
+    },
+    {
         "composer": "LeaF",
         "illustrator": "海产",
         "songsId": "Doppelganger.LeaF.0",
@@ -1112,7 +1262,7 @@
             "Arenn Saki vs Catcats vs 百九十八",
             "Arenn Saki vs Catcats vs 百九十八",
             "Arenn Saki vs Catcats vs 百九十八",
-            ""
+            "JKy"
         ],
         "levels": [
             "EZ",
@@ -1124,7 +1274,7 @@
             6,
             10.3,
             13.7,
-            0
+            14.8
         ]
     },
     {
@@ -1279,7 +1429,7 @@
     },
     {
         "composer": "闫东炜",
-        "illustrator": "喵n葵",
+        "illustrator": "昔璃",
         "songsId": "开心病.闫东炜.0",
         "songsKey": "开心病",
         "songsName": "开心病",
