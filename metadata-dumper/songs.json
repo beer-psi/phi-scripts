@@ -59,7 +59,7 @@
             "Ctymax",
             "Ctymax",
             "Ctymax",
-            ""
+            "_鉄 (Isotope 59)"
         ],
         "levels": [
             "EZ",
@@ -71,7 +71,7 @@
             4.5,
             10.4,
             13.7,
-            0
+            15.5
         ]
     },
     {
@@ -1547,8 +1547,8 @@
         ],
         "difficulty": [
             7,
-            10.8,
-            14.4,
+            11.7,
+            14.5,
             16.1
         ]
     },
@@ -1648,7 +1648,7 @@
         "difficulty": [
             4,
             10.6,
-            14.8,
+            14.9,
             0
         ]
     },
@@ -1726,7 +1726,7 @@
         "difficulty": [
             3.5,
             9.4,
-            12.8,
+            13.2,
             0
         ]
     },
@@ -2029,7 +2029,7 @@
         "difficulty": [
             6.5,
             11.4,
-            13.8,
+            14.1,
             0
         ]
     },
@@ -2854,7 +2854,7 @@
         "difficulty": [
             3,
             9.6,
-            13.6,
+            13.8,
             0
         ]
     },
@@ -2954,7 +2954,7 @@
         "difficulty": [
             5.5,
             9.7,
-            12.1,
+            12.6,
             0
         ]
     },
@@ -3129,7 +3129,7 @@
         "difficulty": [
             5,
             9.2,
-            15.5,
+            15.4,
             0
         ]
     },
@@ -3304,7 +3304,7 @@
         "difficulty": [
             5.5,
             9.3,
-            14.4,
+            14.5,
             0
         ]
     },
@@ -3504,7 +3504,7 @@
         "difficulty": [
             5,
             11.1,
-            15.5,
+            15.4,
             16.4
         ]
     },
@@ -4029,7 +4029,7 @@
         "difficulty": [
             5,
             11.2,
-            15.7,
+            15.6,
             0
         ]
     },
@@ -4128,9 +4128,434 @@
         ],
         "difficulty": [
             7,
-            12.8,
+            12.3,
             15.8,
             0
+        ]
+    },
+    {
+        "composer": "Roy Mikelate",
+        "illustrator": "青鸟",
+        "songsId": "NowIsTheTimeDoIt.RoyMikelate.0",
+        "songsKey": "Now Is The Time, Do It",
+        "songsName": "Now Is The Time, Do It",
+        "charter": [
+            "M3d1uM",
+            "M3d1uM",
+            "Pat Brick Man Mr.N feat. Ner of Time",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            4.5,
+            10.7,
+            14.3,
+            0
+        ]
+    },
+    {
+        "composer": "Jade",
+        "illustrator": "TNiK",
+        "songsId": "Bougainvillea.Jade.0",
+        "songsKey": "Bougainvillea",
+        "songsName": "Bougainvillea",
+        "charter": [
+            "Barbarvillea",
+            "Barbarvillea",
+            "Barbarvillea",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            4,
+            8.3,
+            13.4,
+            0
+        ]
+    },
+    {
+        "composer": "Pica & M2U",
+        "illustrator": "mology (青鸟&V17AMax Modified)",
+        "songsId": "神話.PicaM2U.0",
+        "songsKey": "神話",
+        "songsName": "神話",
+        "charter": [
+            "雑",
+            "波",
+            "P & U",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            4,
+            9.2,
+            13.6,
+            0
+        ]
+    },
+    {
+        "composer": "Θ",
+        "illustrator": "mology (青鸟&V17AMax Modified)",
+        "songsId": "Elúltimobaile.Θ.0",
+        "songsKey": "El último baile",
+        "songsName": "El último baile",
+        "charter": [
+            "Barbarianerman",
+            "Barbarianerman",
+            "百九十八 feat. Likey",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            5,
+            10.4,
+            14.3,
+            0
+        ]
+    },
+    {
+        "composer": "litmus*",
+        "illustrator": "Lapelristar (青鸟&V17AMax Modified)",
+        "songsId": "Trojan.litmus.0",
+        "songsKey": "Trojan",
+        "songsName": "Trojan",
+        "charter": [
+            "M3d1uM",
+            "M3d1uM",
+            "Warning: XMT is infected by Trojan!!",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            4.5,
+            10.8,
+            14.8,
+            0
+        ]
+    },
+    {
+        "composer": "Lure Rabbit & V!C",
+        "illustrator": "mology (青鸟&V17AMax Modified)",
+        "songsId": "TemporalShifting.LureRabbitVC.0",
+        "songsKey": "Temporal Shifting",
+        "songsName": "Temporal Shifting",
+        "charter": [
+            "Su1fuR",
+            "Su1fuR",
+            "Gausbon vs. 阿爽",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            4,
+            11.5,
+            15.2,
+            0
+        ]
+    },
+    {
+        "composer": "Rabbit House",
+        "illustrator": "Lyrebird Ferdinant (青鸟&V17AMax Modified)",
+        "songsId": "Adastraperaspera.RabbitHouse.0",
+        "songsKey": "Ad astra per aspera",
+        "songsName": "Ad astra per aspera",
+        "charter": [
+            "Barbarianerman",
+            "XMT小咩兔",
+            "Hara小兔组",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            6,
+            12.1,
+            15.8,
+            0
+        ]
+    },
+    {
+        "composer": "Yesod",
+        "illustrator": "汉堡",
+        "songsId": "Ajourneytothemoonlight.Yesod.0",
+        "songsKey": "A journey to the moonlight",
+        "songsName": "A journey to the moonlight",
+        "charter": [
+            "Rikko from「PHIGROS MOON」",
+            "Rikko from「PHIGROS MOON」",
+            "Ner & 198 from 「PHIGROS MOON」",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            4.5,
+            10.7,
+            14.5,
+            0
+        ]
+    },
+    {
+        "composer": "BelieverInYou(阿卡姆巫师)",
+        "illustrator": "Sodhelium",
+        "songsId": "RainyHeart.BelieverInYou阿卡姆巫师.0",
+        "songsKey": "Rainy Heart",
+        "songsName": "Rainy Heart",
+        "charter": [
+            "Su1fuR",
+            "Barbarianerman",
+            "HaraKuma",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            4,
+            10.2,
+            12.9,
+            0
+        ]
+    },
+    {
+        "composer": "Hinkik & A Himitsu",
+        "illustrator": "圆规compasses",
+        "songsId": "Realms.HinkikAHimitsu.0",
+        "songsKey": "Realms",
+        "songsName": "Realms",
+        "charter": [
+            "Barbarianerman",
+            "Barbarianerman",
+            "NerSAN",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            4.5,
+            10.8,
+            14.1,
+            0
+        ]
+    },
+    {
+        "composer": "ころねぽち With 立秋",
+        "illustrator": "上倉エク",
+        "songsId": "ぱぴぷぴぷぴぱ.ころねぽちWith立秋.0",
+        "songsKey": "ぱぴぷぴぷぴぱ",
+        "songsName": "ぱぴぷぴぷぴぱ",
+        "charter": [
+            "ParParianerman",
+            "ParParianerman",
+            "さるふるふるさ",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            5,
+            11.3,
+            15.5,
+            0
+        ]
+    },
+    {
+        "composer": "typeMARS",
+        "illustrator": "何呵",
+        "songsId": "TriumphRegret.typeMARS.0",
+        "songsKey": "Triumph & Regret",
+        "songsName": "Triumph & Regret",
+        "charter": [
+            "Barbarianerman & Regret",
+            "Barbarianerman & Regret",
+            "TimiTini & HaraKuma",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            5,
+            9.4,
+            14.7,
+            0
+        ]
+    },
+    {
+        "composer": "かめりあ",
+        "illustrator": "青鸟",
+        "songsId": "SATELLITE.かめりあ.0",
+        "songsKey": "S.A.T.E.L.L.I.T.E.",
+        "songsName": "S.A.T.E.L.L.I.T.E.",
+        "charter": [
+            "XMT wishing upon a satellite",
+            "B.A.R.B.A.R.I.A.N.E.R.M.A.N.",
+            "L.I.K.E.Y.",
+            "N.E.R.1.9.8."
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            5,
+            9.9,
+            14.6,
+            15.8
+        ]
+    },
+    {
+        "composer": "かめりあ",
+        "illustrator": "林语",
+        "songsId": "DancewithSilence.かめりあ.0",
+        "songsKey": "Dance with Silence",
+        "songsName": "Dance with Silence",
+        "charter": [
+            "Su1fuR",
+            "Su1fuR",
+            "晨_鉄",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            7,
+            10.9,
+            15.2,
+            0
+        ]
+    },
+    {
+        "composer": "かめりあ",
+        "illustrator": "鲸弑",
+        "songsId": "LabyrinthinKowloonWalledWorld.かめりあ.0",
+        "songsKey": "Labyrinth in Kowloon: Walled World",
+        "songsName": "Labyrinth in Kowloon: Walled World",
+        "charter": [
+            "VikingNexus",
+            "VikingNexus",
+            "198 in Kowloon",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            6,
+            11.6,
+            15.4,
+            0
+        ]
+    },
+    {
+        "composer": "かめりあ",
+        "illustrator": "山崎团",
+        "songsId": "ComputeItWithSomeDevilishAlcoholicSteampunkEngines.かめりあ.0",
+        "songsKey": "Compute It With Some Devilish Alcoholic Steampunk Engines",
+        "songsName": "Compute It With Some Devilish Alcoholic Steampunk Engines",
+        "charter": [
+            "Clutter",
+            "Clutter",
+            "Gausbon vs. XMT小咩兔",
+            ""
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            5.5,
+            10.6,
+            15.6,
+            0
+        ]
+    },
+    {
+        "composer": "かめりあ",
+        "illustrator": "猫箱Catbox feat. 祈莲",
+        "songsId": "ERABYECONNEC10N.かめりあ.0",
+        "songsKey": "+ERABY+E CONNEC+10N",
+        "songsName": "+ERABY+E CONNEC+10N",
+        "charter": [
+            "4B314C3042592B45",
+            "4D45474142592B45",
+            "4731474142592B45",
+            "2B45524142592B45"
+        ],
+        "levels": [
+            "EZ",
+            "HD",
+            "IN",
+            "AT"
+        ],
+        "difficulty": [
+            5.5,
+            11.5,
+            15.8,
+            16.5
         ]
     },
     {
@@ -4427,7 +4852,7 @@
             "AT"
         ],
         "difficulty": [
-            2,
+            1,
             0,
             0,
             0
